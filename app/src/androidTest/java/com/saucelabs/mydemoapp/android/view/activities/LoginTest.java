@@ -46,8 +46,8 @@ public class LoginTest extends BaseTest {
         waitView(withId(R.id.menuRV));
 
         onView(withId(R.id.menuRV))
-                .perform(RecyclerViewActions.scrollToPosition(10))
-                .perform(RecyclerViewActions.actionOnItemAtPosition(10, new SideNavClickAction()));
+                .perform(RecyclerViewActions.scrollToPosition(11))
+                .perform(RecyclerViewActions.actionOnItemAtPosition(11, new SideNavClickAction()));
 
         onView(withId(R.id.loginBtn))
                 .perform(scroll)
@@ -72,8 +72,8 @@ public class LoginTest extends BaseTest {
         waitView(withId(R.id.menuRV));
 
         onView(withId(R.id.menuRV))
-                .perform(RecyclerViewActions.scrollToPosition(10))
-                .perform(RecyclerViewActions.actionOnItemAtPosition(10, new SideNavClickAction()));
+                .perform(RecyclerViewActions.scrollToPosition(11))
+                .perform(RecyclerViewActions.actionOnItemAtPosition(11, new SideNavClickAction()));
 
         String pass = "10203040";
 
@@ -104,8 +104,8 @@ public class LoginTest extends BaseTest {
         waitView(withId(R.id.menuRV));
 
         onView(withId(R.id.menuRV))
-                .perform(RecyclerViewActions.scrollToPosition(10))
-                .perform(RecyclerViewActions.actionOnItemAtPosition(10, new SideNavClickAction()));
+                .perform(RecyclerViewActions.scrollToPosition(11))
+                .perform(RecyclerViewActions.actionOnItemAtPosition(11, new SideNavClickAction()));
 
         String name = "bod@example.com";
 
