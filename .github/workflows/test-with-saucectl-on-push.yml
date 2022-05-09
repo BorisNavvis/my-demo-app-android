@@ -34,3 +34,4 @@ jobs:
         with:
           testing-environment: ""
           concurrency: 10
+          region: eu-central-1
